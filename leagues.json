@@ -129,6 +129,19 @@
     ]
   },
   "__COMBAT_SPORTS__": "===========================================",
+  "oktagon": {
+    "name": "Oktagon MMA",
+    "env_var": "LEAGUES_ENABLE_MMA",
+    "aliases": [
+        "oktagon mma",
+        "oktagonmma"
+    ],
+    "providers": [
+        {
+            "oktagon": {}
+        }
+    ]
+},
   "ufc": {
     "name": "Ultimate Fighting Championship",
     "env_var": "LEAGUES_ENABLE_MMA",
