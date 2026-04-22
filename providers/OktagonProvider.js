@@ -24,7 +24,7 @@ class OktagonProvider extends BaseProvider {
         this.REQUEST_TIMEOUT = REQUEST_TIMEOUT;
         this.FIGHTERS_URL = 'https://oktagonmma.com/en/fighters/';
         this.THESPORTSDB_API_KEY = process.env.THESPORTSDB_API_KEY || '3';
-        this.THESPORTSDB_LEAGUE_ID = '4966'; // Oktagon MMA on TheSportsDB
+        this.THESPORTSDB_LEAGUE_ID = '5702'; // Oktagon MMA on TheSportsDB
     }
 
     getProviderId() {
