@@ -129,7 +129,7 @@
     ]
   },
   "__COMBAT_SPORTS__": "===========================================",
-  "oktagon": {
+"oktagon": {
     "name": "Oktagon MMA",
     "env_var": "LEAGUES_ENABLE_MMA",
     "aliases": [
@@ -138,7 +138,10 @@
     ],
     "providers": [
         {
-            "oktagon": {}
+            "oktagon": {
+                "leagueId": "5702",
+                "leagueName": "Oktagon MMA"
+            }
         }
     ]
 },
